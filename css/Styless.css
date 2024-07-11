@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* General*/
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Header */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #838383;
+}
+
+.text-imagen {
+    display: flex;
+    align-items: center;
+}
+
+section a img {
+    height: 35px;
+    width: 35px;
+}
+
+.menu img {
+    width: 35px;
+    height: 35px;
+}
+
+section select {
+    border-style: groove;
+    border-radius: 8px;
+    border-width: 2px;
+    padding: 4px;
+    background-color: #838383;
+    font-weight:bold;
+}
+
+
+
+/* Main index */
+main{
+    background-color: #a0a0a0;
+}
+.carrousel{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vistaprevia {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    padding: 10px 20px;
+    height: 100%;
+    width: 100%;
+}
+
+section div a {
+    border-style: groove;
+    border-radius: 15px;
+    border-width: 2px;
+    padding: 4px;
+
+}
+
+h3 {
+    margin: 4px;
+}
+
+div span button img {
+    height: 20px;
+    width: 20px;
+    align-items: center;
+}
+
+/* Main Registro*/
+
+.registro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.registro h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+button {
+    background-color: #838383;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* Main Promos*/
+
+.mainprom{
+    text-align: center;
+}
+
+.imgpromo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+
+}
+
+.imgpromo div h3 {
+    text-align: center;
+}
+
+.imgpromo div img {
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.imgpromo div p {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.imgpromo div  button {
+    align-items: center;
+}
+
+/* Main Favoritos*/
+
+.mainfav {
+    text-align: center;
+}
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #838383;
+}
